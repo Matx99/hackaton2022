@@ -1,10 +1,5 @@
-# WorkAdventure Map Starter Kit
-
-![map](./map.png)
-
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
-
-To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
+## Production link
+https://play.workadventu.re/_/ahdoq0leiko/matx99.github.io/hackaton2022/map.json
 
 ## Structure
 * **assets** : All tilesets
