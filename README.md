@@ -20,7 +20,7 @@ With npm installed (comes with [node](https://nodejs.org/en/)), run the followin
 
 ```shell
 npm install
-npm run dev
+npm run dev 
 ```
 
 ## Test optimized map
