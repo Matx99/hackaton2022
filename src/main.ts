@@ -19,20 +19,22 @@ WA.onInit().then(() => {
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
-    WA.room.onEnterLayer('shopZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup","Il est " + time,[]);
-    })
-
-    WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
-
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
 }).catch(e => console.error(e));
+
+ WA.room.onEnterLayer('shopZone').subscribe(() => {
+        const today = new Date();
+        const time = today.getHours() + ":" + today.getMinutes();
+        if (time >= '14') {
+        currentPopup = WA.ui.openPopup("shopPopup", "Il est trop tard, votre magasin est fermer. ",[]);
+        }
+    })
+
+    WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
 
 function closePopUp(){
     if (currentPopup !== undefined) {
