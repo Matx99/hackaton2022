@@ -26,6 +26,16 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+ WA.room.onEnterLayer('shopZone').subscribe(() => {
+        const today = new Date();
+        const time = today.getHours() + ":" + today.getMinutes();
+        if (time >= '14') {
+        currentPopup = WA.ui.openPopup("shopPopup", "Il est trop tard, votre magasin est fermer. ",[]);
+        }
+    })
+
+    WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
+
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
