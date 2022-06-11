@@ -1,5 +1,5 @@
 ## Production link
-https://play.workadventu.re/_/ahdoq0leiko/matx99.github.io/hackaton2022/map.json
+https://play.workadventu.re/_/ahdoq0leiko/matx99.github.io/hackaton2022/map_entree.json
 
 ## Structure
 * **assets** : All tilesets
