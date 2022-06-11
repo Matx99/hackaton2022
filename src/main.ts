@@ -25,8 +25,8 @@ WA.onInit().then(() => {
     }).catch(e => console.error(e));
 
 }).catch(e => console.error(e));
-
- WA.room.onEnterLayer('shopZone').subscribe(() => {
+   
+/* WA.room.onEnterLayer('shopZone').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
         if (time >= '14') {
@@ -35,7 +35,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
-
+*/
     WA.room.onEnterLayer('nasaZone').subscribe(() => {
         currentPopup = WA.ui.openPopup("nasaPopup", "Bonjour et bienvenue chez Nasa shop. Placez vous devant les vêtements pour les essayer.",[]);
     })
