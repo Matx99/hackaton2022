@@ -25,14 +25,14 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"map_entree.json"
                 }],
          "type":"tilelayer",
          "visible":true,
          "width":28,
          "x":0,
          "y":0
-        },
+        }, 
         {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -57,7 +57,7 @@
          "width":28,
          "x":0,
          "y":0
-        },
+        }, 
         {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -82,7 +82,7 @@
          "width":28,
          "x":0,
          "y":0
-        },
+        }, 
         {
          "data":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28,
             29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
@@ -107,22 +107,22 @@
          "width":28,
          "x":0,
          "y":0
-        },
+        }, 
         {
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":57,
+                 "height":72,
                  "id":1,
                  "name":"defilePopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":92,
-                 "x":513,
-                 "y":194
+                 "width":160,
+                 "x":523,
+                 "y":195
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -133,12 +133,12 @@
  "nextlayerid":6,
  "nextobjectid":2,
  "orientation":"orthogonal",
-  "properties":[
-  {
-    "name":"script",
-    "type":"string",
-    "value":"src\/main.ts"
-  }],
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"src\/main.ts"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.8.5",
  "tileheight":32,
@@ -163,7 +163,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":238,
                  "properties":[
@@ -172,7 +172,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":264,
                  "properties":[
@@ -181,7 +181,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":267,
                  "properties":[
@@ -190,7 +190,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":268,
                  "properties":[
@@ -199,7 +199,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":291,
                  "properties":[
@@ -208,7 +208,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":296,
                  "properties":[
@@ -217,19 +217,19 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "animation":[
                         {
                          "duration":260,
                          "tileid":315
-                        },
+                        }, 
                         {
                          "duration":260,
                          "tileid":11
                         }],
                  "id":314
-                },
+                }, 
                 {
                  "id":318,
                  "properties":[
@@ -238,7 +238,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":325,
                  "properties":[
@@ -247,19 +247,19 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "animation":[
                         {
                          "duration":260,
                          "tileid":328
-                        },
+                        }, 
                         {
                          "duration":260,
                          "tileid":11
                         }],
                  "id":329
-                },
+                }, 
                 {
                  "id":344,
                  "properties":[
@@ -268,7 +268,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":345,
                  "properties":[
@@ -277,7 +277,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":354,
                  "properties":[
@@ -286,19 +286,19 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "animation":[
                         {
                          "duration":260,
                          "tileid":365
-                        },
+                        }, 
                         {
                          "duration":260,
                          "tileid":160
                         }],
                  "id":366
-                },
+                }, 
                 {
                  "id":371,
                  "properties":[
@@ -307,7 +307,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":383,
                  "properties":[
@@ -316,19 +316,19 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "animation":[
                         {
                          "duration":260,
                          "tileid":418
-                        },
+                        }, 
                         {
                          "duration":260,
                          "tileid":11
                         }],
                  "id":389
-                },
+                }, 
                 {
                  "id":398,
                  "properties":[
@@ -337,7 +337,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":412,
                  "properties":[
@@ -346,7 +346,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":425,
                  "properties":[
@@ -355,7 +355,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":441,
                  "properties":[
@@ -364,7 +364,7 @@
                          "type":"bool",
                          "value":true
                         }]
-                },
+                }, 
                 {
                  "id":452,
                  "properties":[
@@ -375,7 +375,7 @@
                         }]
                 }],
          "tilewidth":32
-        },
+        }, 
         {
          "columns":28,
          "firstgid":477,
