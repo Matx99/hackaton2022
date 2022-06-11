@@ -36,11 +36,18 @@ WA.onInit().then(() => {
 
     WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
 
+    WA.room.onEnterLayer('nasaZone').subscribe(() => {
+        currentPopup = WA.ui.openPopup("nasaPopup", "Bonjour et bienvenue chez Nasa shop. Placez vous devant les vêtements pour les essayer.",[]);
+    })
+
+    WA.room.onLeaveLayer('nasaZone').subscribe(closePopUp)
+
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
     }
 }
+
 
 export {};
