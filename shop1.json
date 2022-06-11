@@ -319,8 +319,28 @@
                  "y":457.83
                 }, 
                 {
-                 "height":19.3333333333334,
+                 "height":58.6666666666665,
                  "id":27,
+                 "name":"exit",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "fontfamily":"AnjaliOldLipi",
+                     "halign":"center",
+                     "text":"take-off to Northface",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":69.9666666666667,
+                 "x":1093.01666666666,
+                 "y":458.496666666667
+                }, 
+                {
+                 "height":19.3333,
+                 "id":28,
                  "name":"exit",
                  "rotation":0,
                  "text":
@@ -335,8 +355,8 @@
                  "type":"",
                  "visible":true,
                  "width":43.63,
-                 "x":1111.68333333333,
-                 "y":455.83
+                 "x":57.5183333333332,
+                 "y":629.000016666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -345,7 +365,7 @@
          "y":0
         }],
  "nextlayerid":86,
- "nextobjectid":28,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {
