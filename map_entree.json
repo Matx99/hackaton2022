@@ -42,13 +42,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":13,
          "id":52,
-         "name":"exitToMap",
+         "name":"exitToNorthFace",
          "opacity":1,
          "properties":[
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"northface.json"
                 }],
          "type":"tilelayer",
          "visible":true,
