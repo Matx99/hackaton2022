@@ -30,16 +30,16 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
    
-/* WA.room.onEnterLayer('shopZone').subscribe(() => {
+    WA.room.onEnterLayer('shopZone').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
         if (time >= '14') {
-        currentPopup = WA.ui.openPopup("shopPopup", "Il est trop tard, votre magasin est fermer. ",[]);
+        currentPopup = WA.ui.openPopup("shopPopup", "Votre magasin va ouvir prochainement. ",[]);
         }
     })
 
     WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
-*/
+
     WA.room.onEnterLayer('nasaZone').subscribe(() => {
         currentPopup = WA.ui.openPopup("nasaPopup", "Bonjour et bienvenue chez Nasa shop. Placez vous devant les vêtements pour les consulter.",[]);
     })
