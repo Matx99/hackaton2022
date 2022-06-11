@@ -37,7 +37,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('shopZone').subscribe(closePopUp)
 */
     WA.room.onEnterLayer('nasaZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("nasaPopup", "Bonjour et bienvenue chez Nasa shop. Placez vous devant les vêtements pour les essayer.",[]);
+        currentPopup = WA.ui.openPopup("nasaPopup", "Bonjour et bienvenue chez Nasa shop. Placez vous devant les vêtements pour les consulter.",[]);
     })
 
     WA.room.onLeaveLayer('nasaZone').subscribe(closePopUp)
