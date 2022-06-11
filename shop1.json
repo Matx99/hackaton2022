@@ -32,7 +32,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"northface.json"
                 }],
          "type":"tilelayer",
          "visible":true,
