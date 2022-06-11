@@ -17,10 +17,8 @@ WA.onInit().then(() => {
     }, 2000);
     
 
-    WA.room.onEnterLayer('clockZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
+    WA.room.onEnterLayer('messageZone').subscribe(() => {
+        currentPopup = WA.ui.openPopup("defilePopup","Bienvenue au défilé",[]);
     })
 
     WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
