@@ -2,14 +2,20 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
-console.log('Script started successfully');
+console.log('Hello ! Script started successfully');
+
 
 let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
+    console.log('Player tags: ', WA.player.tags);
+    console.log('Player name: ', WA.player.name);
+    setTimeout(function () {
+        console.log('Message: ', WA.player.state.hellothere);
+    }, 2000);
+    
 
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
