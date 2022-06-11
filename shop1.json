@@ -178,7 +178,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/eventapppa.000webhostapp.com\/test\/test.html"
+                 "value":"https:\/\/eventapppa.000webhostapp.com\/nasa.html"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -306,7 +306,6 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#000000",
                      "fontfamily":"Samyak Tamil",
                      "halign":"center",
                      "text":"information",
