@@ -25,7 +25,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"defile.json"
                 }],
          "type":"tilelayer",
          "visible":true,
